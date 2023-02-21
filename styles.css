@@ -20,33 +20,33 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--white);
-    height: 500px;
-    width: 300px;
+    max-width: 300px;
     text-align: center;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 1.25em;
+    padding: 1.25em;
 }
 
 img {
-    width: 100%;
-    height: 300px;
-    border-radius: 13px;
-    margin-bottom: 10px;
+    max-width: 100%;
+    border-radius: 0.813em;
+    margin-bottom: 0.625em;
 }
 
 .card_content {
     display: block;
+    text-align: center;
+    font-size: 0.9375rem;
 }
 
 .card_content h1 {
     color: var(--dark-blue);
     font-weight: 700;
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 1.5625rem;
+    margin-bottom: 1.25em;
 }
 
 .card_content p {
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 400;
     color: var(--grey-blue);
 }
